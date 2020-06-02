@@ -1,5 +1,11 @@
-# cdecrypt
+## boot1_extract
+A small tool to extract boot1 from NUS downloads.
 
-Small C++ tool to decrypt Wii U NUS content files. Usage requires knowledge of the Wii U common key.
+### Building
+ * Fill in the common key in `main.cpp`__
+ * Run `make`  
 
-This is a fork of https://code.google.com/p/cdecrypt, and contrary to its base it compiles fine in gcc/clang and works on Linux.
+### Credits
+This tool is based on cdecrypt  
+ * crediar: The original cdecrypt  
+ * neobrain: The cdecrypt gcc/linux port  

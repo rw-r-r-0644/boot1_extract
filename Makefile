@@ -1,9 +1,9 @@
 CXXFLAGS = -std=c++11 -D_FILE_OFFSET_BITS=64
 LDFLAGS = -lssl -lcrypto
 
-all: cdecrypt
+all: boot1_extract
 
-cdecrypt: main.o
+boot1_extract: main.o
 	$(CXX) $(LDFLAGS) main.o -o $@
 
 %.o: %.cpp
@@ -11,4 +11,4 @@ cdecrypt: main.o
 
 clean:
 	$(RM) main.o
-	$(RM) cdecrypt
+	$(RM) boot1_extract

@@ -2,7 +2,7 @@
 A small tool to extract boot1 from NUS downloads.
 
 ### Building
- * Fill in the common key in `main.cpp`__
+ * Fill in the common key in `main.cpp`  
  * Run `make`  
 
 ### Credits
